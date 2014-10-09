@@ -2,7 +2,7 @@ class colorprompt::params {
 
   case $::kernel {
 
-    Linux: {
+    'Linux': {
       $default_usercolor = 'cyan'
       $custom_usercolors = { root => 'magenta' }
       $server_color      = 'white'
